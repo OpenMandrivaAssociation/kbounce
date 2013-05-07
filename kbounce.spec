@@ -1,5 +1,5 @@
 Name:		kbounce
-Version:	4.10.2
+Version:	4.10.3
 Release:	1
 Epoch:		1
 Summary:	Claim areas and don't get disturbed
@@ -36,6 +36,9 @@ new walls to decrease the size of the active field.
 %makeinstall_std -C build
 
 %changelog
+* Tue May 07 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.10.3-1
+- New version 4.10.3
+
 * Wed Apr 03 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.10.2-1
 - New version 4.10.2
 
