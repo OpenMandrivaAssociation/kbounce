@@ -1,6 +1,6 @@
 Name:		kbounce
 Version:	4.12.1
-Release:	1
+Release:	2
 Epoch:		1
 Summary:	Claim areas and don't get disturbed
 Group:		Graphical desktop/KDE
