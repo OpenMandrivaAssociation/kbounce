@@ -1,6 +1,6 @@
 Name:		kbounce
-Version:	4.14.3
-Release:	2
+Version:	15.04.0
+Release:	1
 Epoch:		1
 Summary:	Claim areas and don't get disturbed
 Group:		Graphical desktop/KDE
