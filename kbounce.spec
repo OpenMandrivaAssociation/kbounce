@@ -8,7 +8,7 @@ License:	GPLv2 and LGPLv2 and GFDL
 URL:		https://www.kde.org/applications/games/kbounce
 Source:		http://download.kde.org/stable/applications/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	libkdegames-devel
-BuildRequires:	cmake(ECM)
+BuildRequires:	cmake(KF5NotifyConfig)
 
 %description
 KBounce is a single player arcade game with the elements of puzzle.
