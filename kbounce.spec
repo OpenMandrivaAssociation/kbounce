@@ -18,11 +18,13 @@ bouncing around within the walls. The object of the game is to build
 new walls to decrease the size of the active field.
 
 %files
-%{_kde_bindir}/kbounce
-%{_kde_applicationsdir}/kbounce.desktop
-%{_kde_appsdir}/kbounce
-%{_kde_iconsdir}/*/*/apps/kbounce*
-%{_kde_docdir}/*/*/kbounce
+%doc %{_docdir}/*/*/kbounce
+%{_bindir}/kbounce
+%{_datadir}/applications/org.kde.kbounce.desktop
+%{_datadir}/kxmlgui5/kbounce/kbounceui.rc
+%{_datadir}/kbounce
+%{_iconsdir}/*/*/apps/kbounce*
+
 
 #-------------------------------------------------------------------------------
 
