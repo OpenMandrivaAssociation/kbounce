@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   kbounce-15.08.0.tar.xz: b33da840f481fc6079bf021cbd64b6234da9ff01
+sources:
+  kbounce-15.08.1.tar.xz: a1b27df24e34a8070c23b16b584bb1e64d75673f
