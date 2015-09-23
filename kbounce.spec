@@ -8,6 +8,19 @@ License:	GPLv2 and LGPLv2 and GFDL
 URL:		https://www.kde.org/applications/games/kbounce
 Source:		http://download.kde.org/stable/applications/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	libkdegames-devel
+BuildRequires:	cmake(Qt5Test)
+BuildRequires:	cmake(KF5CoreAddons)
+BuildRequires:	cmake(KF5Config)
+BuildRequires:	cmake(KF5WidgetsAddons)
+BuildRequires:	cmake(KF5DBusAddons)
+BuildRequires:	cmake(KF5I18n)
+BuildRequires:	cmake(KF5GuiAddons)
+BuildRequires:	cmake(KF5ConfigWidgets)
+BuildRequires:	cmake(KF5IconThemes)
+BuildRequires:	cmake(KF5Completion)
+BuildRequires:	cmake(KF5TextWidgets)
+BuildRequires:	cmake(KF5XmlGui)
+BuildRequires:	cmake(KF5KIO)
 BuildRequires:	cmake(KF5NotifyConfig)
 
 %description
