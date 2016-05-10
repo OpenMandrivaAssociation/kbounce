@@ -24,6 +24,7 @@ BuildRequires:	cmake(KF5KIO)
 BuildRequires:	cmake(KF5NotifyConfig)
 BuildRequires:	cmake(KF5DocTools)
 BuildRequires:	cmake(Qt5Test)
+BuildRequires:	cmake(KF5Crash)
 
 %description
 KBounce is a single player arcade game with the elements of puzzle.
