@@ -1,5 +1,5 @@
 Name:		kbounce
-Version:	17.03.80
+Version:	17.04.0
 Release:	1
 Epoch:		1
 Summary:	Claim areas and don't get disturbed
@@ -34,8 +34,7 @@ It is played on a field, surrounded by wall, with two or more balls
 bouncing around within the walls. The object of the game is to build
 new walls to decrease the size of the active field.
 
-%files
-%doc %{_docdir}/*/*/kbounce
+%files -f %{name}.lang
 %{_bindir}/kbounce
 %{_datadir}/applications/org.kde.kbounce.desktop
 %{_datadir}/kxmlgui5/kbounce/kbounceui.rc
@@ -54,4 +53,4 @@ new walls to decrease the size of the active field.
 
 %install
 %ninja_install -C build
-
+%find_lang %{name} --with-html
