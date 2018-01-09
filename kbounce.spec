@@ -1,5 +1,5 @@
 Name:		kbounce
-Version:	17.11.90
+Version:	17.12.1
 Release:	1
 Epoch:		1
 Summary:	Claim areas and don't get disturbed
