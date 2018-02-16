@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   kbounce-17.12.1.tar.xz: 296c87f9680466612dc5c6460ac18c609c9bd473
+sources:
+  kbounce-17.12.2.tar.xz: 381be1166cc6a48588bcb3cb685dae4c31ce8bee
