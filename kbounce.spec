@@ -1,6 +1,6 @@
 Name:		kbounce
 Version:	20.03.90
-Release:	1
+Release:	2
 Epoch:		1
 Summary:	Claim areas and don't get disturbed
 Group:		Graphical desktop/KDE
