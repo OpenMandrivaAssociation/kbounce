@@ -1,5 +1,5 @@
 Name:		kbounce
-Version:	20.12.3
+Version:	21.03.80
 Release:	1
 Epoch:		1
 Summary:	Claim areas and don't get disturbed
@@ -36,10 +36,9 @@ new walls to decrease the size of the active field.
 %{_bindir}/kbounce
 %{_datadir}/applications/org.kde.kbounce.desktop
 %{_datadir}/metainfo/org.kde.kbounce.appdata.xml
-%{_datadir}/kxmlgui5/kbounce/kbounceui.rc
 %{_datadir}/kbounce
 %{_iconsdir}/*/*/apps/kbounce*
-
+%{_datadir}/qlogging-categories5/kbounce.categories
 
 #-------------------------------------------------------------------------------
 
