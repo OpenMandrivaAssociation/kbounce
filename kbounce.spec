@@ -1,5 +1,5 @@
 Name:		kbounce
-Version:	21.12.0
+Version:	21.12.1
 Release:	1
 Epoch:		1
 Summary:	Claim areas and don't get disturbed
