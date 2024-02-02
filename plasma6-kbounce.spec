@@ -1,6 +1,6 @@
 Name:		plasma6-kbounce
-Version:	24.01.90
-Release:	2
+Version:	24.01.95
+Release:	1
 Summary:	Claim areas and don't get disturbed
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
