@@ -2,8 +2,8 @@
 %define gitbranch release/24.02
 %define gitbranchd %(echo %{gitbranch} |sed -e "s,/,-,g")
 Name:		plasma6-kbounce
-Version:	24.02.0
-Release:	%{?git:0.%{git}.}2
+Version:	24.02.1
+Release:	%{?git:0.%{git}.}1
 Summary:	Claim areas and don't get disturbed
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
