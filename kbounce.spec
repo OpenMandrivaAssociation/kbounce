@@ -2,7 +2,7 @@
 %define gitbranch release/24.02
 %define gitbranchd %(echo %{gitbranch} |sed -e "s,/,-,g")
 Name:		kbounce
-Version:	25.04.0
+Version:	25.04.3
 Release:	%{?git:0.%{git}.}1
 Summary:	Claim areas and don't get disturbed
 Group:		Graphical desktop/KDE
@@ -31,6 +31,11 @@ BuildRequires:	cmake(KF6KIO)
 BuildRequires:	cmake(KF6DocTools)
 BuildRequires:	cmake(KDEGames6)
 
+%rename plasma6-kbounce
+
+BuildSystem:	cmake
+BuildOption:	-DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON
+
 %description
 KBounce is a single player arcade game with the elements of puzzle.
 
@@ -46,18 +51,3 @@ new walls to decrease the size of the active field.
 %{_iconsdir}/*/*/apps/kbounce*
 %{_datadir}/qlogging-categories6/kbounce.categories
 %{_datadir}/qlogging-categories6/kbounce.renamecategories
-
-#-------------------------------------------------------------------------------
-
-%prep
-%autosetup -p1 -n kbounce-%{?git:%{gitbranchd}}%{!?git:%{version}}
-%cmake \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON \
-	-G Ninja
-
-%build
-%ninja -C build
-
-%install
-%ninja_install -C build
-%find_lang kbounce --with-html
